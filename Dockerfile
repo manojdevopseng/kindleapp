@@ -2,7 +2,7 @@ FROM ubuntu:latest
 MAINTAINER kumar.manoj8527387747@gmail.com
 RUN apt install nginx -y
 RUN apt install zip -y
-ADD https://www.free-css.com/assets/files/free-css-templates/download/page247/kindle.zip
+ADD https://www.free-css.com/assets/files/free-css-templates/download/page247/kindle.zip /var/www/html/
 WORKDIR /var/www/html
 RUN unzip kindle.zip
 RUN cp -rvf markups-kindle/* .
