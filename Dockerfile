@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM ubuntu:latest
 MAINTAINER kumar.manoj8527387747@gmail.com
 RUN apt install -y nginx \
   zip \
